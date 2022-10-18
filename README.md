@@ -2,7 +2,7 @@
 Behavior of binary search, AVL and redBlack trees and comparative analysis between them.
 
 # 1. Abstract
-    This work attemps to understand and compare the Binary Search Tree, AVL and RedBlack data structures. To achieve this objective, two steps will be taken: developing each structure separately to understand their behavior and then comparing their insertion, search and deletion functions.
+   This work attemps to understand and compare the Binary Search Tree, AVL and RedBlack data structures. To achieve this objective, two steps will be taken: developing each structure separately to understand their behavior and then comparing their insertion, search and deletion functions.
 
 # 2. Introduction
   A tree is a node-based data structure, which each node have a value stored and pointers to others two nodes, Left child  and Right child.
