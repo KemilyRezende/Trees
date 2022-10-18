@@ -10,6 +10,7 @@ Behavior of binary search, AVL and redBlack trees and comparative analysis betwe
    1. The left child's value is always less than its parent node's value.
    2. The right child's value is always greater than its parent node's value.
    3. The left and the right subtree each must also be a tree.
+   
    Tree's search behave like an divide-and-conquer algorithm, half items are discard in every interaction until find the searched item. When balanced, the tree's height will be equal log(n), with n being the number of items in the tree. The tree's height is also the max number of comparations until find an item, ie, a tree has O(log(n)) complexity. When more searchs will be done than insertions and deletions trees are great algorithms for dealing with the problem.
    Binary Search Tree: It's the most basic tree structure. It may become an unbalanced tree. The worst case is when items are inserted in ascending or descending order, in which case the tree will behave like a linked list having Ω(n) complexity.
    AVL Tree: It's a self-balanced binary search tree. The balance factor is the difference between the heights of the left and right subtrees, if this difference is equal to or higher than 2 the tree will be balanced through simple(Right or Left) or complex(Left-Right or Right-Left) rotations. The complexity is always O(log(n)).
