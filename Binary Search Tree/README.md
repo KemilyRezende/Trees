@@ -16,13 +16,18 @@ Image 1 - Insertions in a Tree.
       2. Value stored in a Node that has two children.
       3. Value stored in a Leaf Node (Node with no children).
   To aproach which one the tree at the following image (image 2) will be taken as example and then a sequence of deletions will be done.
-  [image here]
+  
+  <img src="https://github.com/KemilyRezende/Trees/blob/main/Binary%20Search%20Tree/img/Tree.jpg" width = "400px" height = "400px">
+Image 2 - Example Tree.
       Case 1: To aproach this case the value deleted value will be 16. When the deleted Node has only one child it will just be replaced by it.
-      [image here]
+      <img src="https://github.com/KemilyRezende/Trees/blob/main/Binary%20Search%20Tree/img/One-child-delete.jpg" width = "400px" height = "400px">
+Image 3 - Case 1.
       Case 2: It's the most complicated one, when a Node has two childrens it's impossible just replace it  by one of then because it could break the insertion rule (lowest values at left, higher at right). So, the lowest value will be searched in the right subtree and then the Node with a value to be deleted will store this new value and the Node that was storing it will be deleted.
-      [image here]
+      <img src="https://github.com/KemilyRezende/Trees/blob/main/Binary%20Search%20Tree/img/Two-children-delete.jpg" width = "400px" height = "400px">
+Image 4 - Case 2.
       Case 3: It's the simplest one, if a Node has no children it will just be equaled to NULL.
-      [image here]
+      <img src="https://github.com/KemilyRezende/Trees/blob/main/Binary%20Search%20Tree/img/Leaf-delete.jpg" width = "400px" height = "400px">
+Image 5 - Case 3.
      
 # Search
 
