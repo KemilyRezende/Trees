@@ -20,20 +20,20 @@ Image 1 - Insertions in a Tree.
   <img src="https://github.com/KemilyRezende/Trees/blob/main/Binary%20Search%20Tree/img/Tree.jpg" width = "400px" height = "400px">
 Image 2 - Example Tree.
       
-   Case 1: To aproach this case the value deleted value will be 16. When the deleted Node has only one child it will just be replaced by it.
+   Case 1: To aproach this case the value deleted value will be 16 (Image 3). When the deleted Node has only one child it will just be replaced by it.
       
    <img src="https://github.com/KemilyRezende/Trees/blob/main/Binary%20Search%20Tree/img/One-child-delete.jpg" width = "400px" height = "400px">
-Image 3 - Case 1.
+Image 3.
 
-   Case 2: It's the most complicated one, when a Node has two childrens it's impossible just replace it  by one of then because it could break the insertion rule (lowest values at left, higher at right). So, the lowest value will be searched in the right subtree and then the Node with a value to be deleted will store this new value and the Node that was storing it will be deleted.
+   Case 2: It's the most complicated one, when a Node has two childrens it's impossible just replace it  by one of then because it could break the insertion rule (lowest values at left, higher at right). So, the lowest value will be searched in the right subtree and then the Node with a value to be deleted will store this new value and the Node that was storing it will be deleted. The value 7 will be deleted (Image 4)
       
    <img src="https://github.com/KemilyRezende/Trees/blob/main/Binary%20Search%20Tree/img/Two-children-delete.jpg" width = "400px" height = "400px">
-Image 4 - Case 2.
+Image 4.
 
-   Case 3: It's the simplest one, if a Node has no children it will just be equaled to NULL.
+   Case 3: It's the simplest one, if a Node has no children it will just be equaled to NULL. The value 5 will be deleted. (Image 5)
    
    <img src="https://github.com/KemilyRezende/Trees/blob/main/Binary%20Search%20Tree/img/Leaf-delete.jpg" width = "400px" height = "400px">
-Image 5 - Case 3.
+Image 5.
      
 # Search
 
