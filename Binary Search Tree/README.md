@@ -42,31 +42,33 @@ Image 1 - Insertions in a Tree.
  
  # Files:
   Node.hpp and Node.cpp:
-    Items:
-      value: Store the value inserted into the Node, in that case is a float value.
-      Right: It's a pointer to the Node's Right child.
-      Left: It's a pointer to the Node's Left child.
-    Functions:
-      Node:  It's the class constructor, initializes the items assingning a value to "value", and sets the children as NULL. (Parameter: a float type value).
-      setValue: Sets the "value" variable. (Parameter: a float type value).
-      getValue: Returns "value".
-      setRight: Sets the value of Node's Right child. (Parameter: a Node* type value).
-      getRight: Returns the Node's Right child.
-      setLeft: Sets the value of Node's Left child. (Parameter: a Node* type value).
-      getLeft: Returns the Node's Left child.
+    -Items:
+      --value: Store the value inserted into the Node, in that case is a float value.
+      --Right: It's a pointer to the Node's Right child.
+      --Left: It's a pointer to the Node's Left child.
+    -Functions:
+      --Node:  It's the class constructor, initializes the items assingning a value to "value", and sets the children as NULL. (Parameter: a float type value).
+      --setValue: Sets the "value" variable. (Parameter: a float type value).
+      --getValue: Returns "value".
+      --setRight: Sets the value of Node's Right child. (Parameter: a Node* type value).
+      --getRight: Returns the Node's Right child.
+      --setLeft: Sets the value of Node's Left child. (Parameter: a Node* type value).
+      --getLeft: Returns the Node's Left child.
+      
   Tree.hpp and Tree.cpp
-    Item:
-      root: It's a Node* type variable that stores the Tree's root
-    Functions:
-      Tree: It's a empty constructor that initializes root as NULL
-      Tree: It's a constructor that initializes root with a value. (Parameter: a float type value).
-      getRoot: Returns the root.
-      Insert: It inserts a value on the tree, actually just sets the rooth if it equals to NULL, else calls InsertAux to the following insertions. (Parameter: a float type value).
-      InsertAux: Is called to insert values after root has been inserted. It follows the method already approached. (Parameters: a Node* value as root and a float type value).
-      Delete: Deletes items as the method already approached.
-      Search: Searches items as the method already approached.
-      Height: Returns Tree's height.
-      Preorder: Prints Tree's values following preorder traversal.
-      Inorder: Prints Tree's value from the lowest to the highest.
-      Postorder: Prints Tree's Value following postorder traversal.
-        Using the Tree (Image 2) as an example, the prints would be: Preorder: [10, 7, 5, 9, 16, 13]; Inorder: [5, 7, 9, 10, 13, 16] and Postorder: [5, 9, 7, 13, 16, 10].
+    -Item:
+      --root: It's a Node* type variable that stores the Tree's root
+    -Functions:
+      --Tree: It's a empty constructor that initializes root as NULL
+      --Tree: It's a constructor that initializes root with a value. (Parameter: a float type value).
+      --getRoot: Returns the root.
+      --Insert: It inserts a value on the tree, actually just sets the rooth if it equals to NULL, else calls InsertAux to the following insertions. (Parameter: a float type value).
+      --InsertAux: Is called to insert values after root has been inserted. It follows the method already approached. (Parameters: a Node* value as root and a float type value).
+      --Delete: Deletes items as the method already approached.
+      --Search: Searches items as the method already approached.
+      --Height: Returns Tree's height.
+      --Preorder: Prints Tree's values following preorder traversal.
+      --Inorder: Prints Tree's value from the lowest to the highest.
+      --Postorder: Prints Tree's Value following postorder traversal.
+      
+   Using the Tree (Image 2) as an example, the prints would be: Preorder: [10, 7, 5, 9, 16, 13]; Inorder: [5, 7, 9, 10, 13, 16] and Postorder: [5, 9, 7, 13, 16, 10].
