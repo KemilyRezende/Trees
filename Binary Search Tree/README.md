@@ -19,7 +19,8 @@ Image 1 - Insertions in a Tree.
   
   <img src="https://github.com/KemilyRezende/Trees/blob/main/Binary%20Search%20Tree/img/Tree.jpg" width = "400px" height = "400px">
 Image 2 - Example Tree.
-      Case 1: To aproach this case the value deleted value will be 16. When the deleted Node has only one child it will just be replaced by it.
+      
+   Case 1: To aproach this case the value deleted value will be 16. When the deleted Node has only one child it will just be replaced by it.
       
    <img src="https://github.com/KemilyRezende/Trees/blob/main/Binary%20Search%20Tree/img/One-child-delete.jpg" width = "400px" height = "400px">
 Image 3 - Case 1.
