@@ -20,7 +20,8 @@ Behavior of binary search, AVL and redBlack trees and comparative analysis betwe
    RedBlack Tree: It's also a self-balancing binary search tree, but now each node has an extra bit, and that bit is interpreted as the color (red or black). These colors are used to ensure that the tree remains balanced during insertions and deletions. To balance the tree rotations will be done in some cases. Differente from AVL, RedBlack uses only simple rotations. The RedBlack Tree's max height is equal to 2log(n-1), so, the search, insert and delete average complexity is O(log(n)) and Ω(2log(n-1)). https://github.com/KemilyRezende/Trees/tree/main/RedBlack
 
 # 3. Methods
-  
+  At first, the trees were developed in c++ as seen on links above, and then, were united in a program to compare the execution time difference between them.
+  Each one was underwent insertions, searches and deletions. Four different files were read with respectively 500, 5000, 50000 and 500000 elements (float type values). In each procedure the values were inserted and then 10000 searches were done with values from another file. After the searches, this values will be deleted on the tree. All this procedures were also made in an Ordered Vector to compare with the trees.
   
 # 4. Results
 
