@@ -24,5 +24,12 @@ Behavior of binary search, AVL and redBlack trees and comparative analysis betwe
   Each one was underwent insertions, searches and deletions. Four different files were read with respectively 500, 5000, 50000 and 500000 elements (float type values). In each procedure the values were inserted and then 10000 searches were done with values from another file. After the searches, this values will be deleted on the tree. All this procedures were also made in an Ordered Vector to compare with the trees.
   
 # 4. Results
+<img src="https://github.com/KemilyRezende/Trees/blob/main/img/Arquivo%20500.png" width = "400px" height = "400px">
+
+<img src"https://github.com/KemilyRezende/Trees/blob/main/img/Arquivo%205000.png" width = "400px" height = "400px">
+
+<img src"https://github.com/KemilyRezende/Trees/blob/main/img/Arquivo%2050000.png" width = "400px" height = "400px">
+
+<img src"https://github.com/KemilyRezende/Trees/blob/main/img/Arquivo%20500000.png" width = "400px" height = "400px">
 
 # 5. Conclusion
