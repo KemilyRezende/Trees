@@ -32,7 +32,9 @@ Behavior of binary search, AVL and redBlack trees and comparative analysis betwe
 <img src="https://github.com/KemilyRezende/Trees/blob/main/img/Arquivo%20500000.png" width = "400px" height = "400px">
 
 # 5. Conclusion
-After develop and compare the structures it's verified that AVL tree is the faster when searching, this is due to the fact of it has a strong balancing maintanace where a subtree is allowed to be in only one level lower that the other, so, the complexity is always close to log(n). There's no gain related to the memory cust using trees.
+After develop and compare the structures it's verified that AVL tree is the faster when searching, this is due to the fact of it has a strong balancing maintanace where a subtree is allowed to be in only one level lower that the other, so, the complexity is always close to log(n). 
+
+There's no gain related to the memory cust using trees.
 
 The maps structure is frequently used to simulate trees, so in a big data base it's faster than a vector.
 In this analysis the vector execution time is close to AVL because the binary_search function was used, for being also a divide-and-conquer function, its complexity is close to AVL tree. The binary_search function was also used to validate the deletion and a big part of the searched values weren't insert at the tree, all of this colabores to this result.
