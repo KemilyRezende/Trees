@@ -22,6 +22,7 @@ Behavior of binary search, AVL and redBlack trees and comparative analysis betwe
 # 3. Methods
   At first, the trees were developed in c++ as seen on links above, and then, were united in a program to compare the execution time difference between them.
   Each one was underwent insertions, searches and deletions. Four different files were read with respectively 500, 5000, 50000 and 500000 elements (float type values). In each procedure the values were inserted and then 10000 searches were done with values from another file. After the searches, this values will be deleted on the tree. All this procedures were also made in an Ordered Vector to compare with the trees.
+  The vector was ordered using qsort function and the searches were done with binary_search function.
   
 # 4. Results
 
